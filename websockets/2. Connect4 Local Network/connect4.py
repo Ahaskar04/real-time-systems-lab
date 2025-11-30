@@ -44,6 +44,7 @@ class Connect4:
         Returns the row where the checker lands.
 
         Raises :exc:`ValueError` if the move is illegal.
+
         """
         if player == self.last_player:
             raise ValueError("It isn't your turn.")
